@@ -1,0 +1,53 @@
+ @media (min-width: 1200px) {
+
+    .sidenav.fixed-start+.main-content {
+        margin-left: 0 !important;
+    }
+
+    aside {
+        display: none !important;
+    }
+
+    .navbar-main #showmodal{
+        display: block;
+    }
+    .navbar .sidenav-toggler-inner {
+        width: 18px;
+        display: none;
+      }
+}
+
+@media (max-width: 600px) {
+    
+    .navbar-collapse #showmodal{
+        display: none;
+    }
+ 
+    
+}
+.navbar-verticals.navbar-expand-xs #showmodal {
+    display: block;
+    background-color: aliceblue;
+    margin-top: 15px;
+    width: 250px;
+    height: 60x;
+}
+
+.navbar-verticals.navbar-expand-xs {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    height: 250px ;
+    max-width: 15.625rem !important;
+    overflow-y: auto;
+    padding: 0;
+    box-shadow: none;
+  }
+  
+  .navbar-verticals.navbar-expand-xs .navbar-collapse {
+    display: block;
+    overflow: hidden;
+  }
+  
